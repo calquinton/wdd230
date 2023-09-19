@@ -1,5 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    width: 50%;
+    margin: auto;
+    text-align: center;
     display: grid;
-    grid-template: 1fr/ 1fr 1fr 1fr 1fr;
+    grid-template: 1fr / 1fr;
+}
+
+header {
+    background-color: skyblue;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    background-color: greenyellow;
+    padding: 1rem;
+}
+
+.card {
+    border-style: dashed;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: greenyellow;
+}
+
+ul {
+    list-style-type: none;
 }
