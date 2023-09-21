@@ -19,6 +19,12 @@ nav {
     padding: 1rem;
 }
 
+nav ul li {
+    list-style-type: none;
+    display: block;
+    width: 100%
+}
+
 .card {
     border-style: dashed;
     padding: 1rem;
