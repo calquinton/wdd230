@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+    font-family: 'Silkscreen', cursive;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template: 1fr / 1fr;
+}
+
+header {
+    background-color: skyblue;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    border-style: dashed;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+section img {
+    margin: auto;
+    padding: 1rem;
+}
+
+footer {
+    background-color: greenyellow;
+}
